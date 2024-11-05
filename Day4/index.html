@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <a href="https://abes.ac.in">ABES website</a>
+    <button onclick="display()">Change link</button>
+    
+    <script>
+        let p1 = document.querySelector('a');
+        let b= true;
+        let display = () => {
+            if(b) {
+                p1.setAttribute('href','https://youtube.com');
+                p1.innerText = "Youtube website";
+                b = false;
+            }
+
+            else{
+                p1.setAttribute('href','https://abes.ac.in');
+                p1.innerText = "ABES website";
+                b = true;
+            }
+
+            
+            
+        }
+    </script> -->
+
+    <!-- <button onclick="display()">Click here</button>
+    <script>
+        let display = () => {
+            const h1=document.createElement('h1');
+            h1.textContent = 'I am heading';
+
+            let b = document.querySelector('body');
+            b.appendChild(h1);
+        }
+        
+    </script> -->
+    <button>Click here</button>
+    <script>
+        let handleclick = () => {
+            alert("new function");
+
+        }
+
+        let btn = document.querySelector('button');
+        btn.addEventListener('click', handleclick);
+
+    </script>
+</body>
+</html>
